@@ -1,5 +1,5 @@
 const FILE_PATH = process.env.FILE_PATH || './temp'; // 运行文件夹，节点文件存放目录
-const projectPageURL = process.env.URL || '';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
+const projectPageURL = process.env.URL || 'https://ar-66h7ycvj.b4a.run';        // 填写项目域名可开启自动访问保活，非标端口的前缀是http://
 const intervalInseconds = process.env.TIME || 120;   // 自动访问间隔时间（120秒）
 const UUID = process.env.UUID || '88e34919-4aab-4ec4-a1a6-6809829d3d09';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     // 哪吒3个变量不全不运行
